@@ -31,7 +31,6 @@ console.log(arr);
 const item = ["volvo", "bmw", "mercedes"];
 arr = item;
 
-
 //Array of objects
 const personObj = [
   {
@@ -82,3 +81,23 @@ const printProduct = (productObj) => {
 };
 
 printProduct(productObj);
+
+//map method without using function
+const fruits = [
+  {
+    name: "apple",
+    costs: "100/kg",
+    rating: 5,
+  },
+  {
+    name: "orange",
+    costs: "143/kg",
+    rating: 4.3,
+  },
+];
+
+fruits.map((fruit) => {
+  console.log(fruit.name);
+  let cost = 100;
+  console.log(cost + fruit.costs);
+});
