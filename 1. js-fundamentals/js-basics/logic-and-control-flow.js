@@ -41,4 +41,45 @@ if (points) {
 // Syntax
 // (condition) ? true : false
 const years = 18;
-years >= 18 ? console.log("You are eligible to vote") : console.log("You are mot eligible to vote");
+years >= 18
+  ? console.log("You are eligible to vote")
+  : console.log("You are mot eligible to vote");
+
+// Loops
+// The while loop loops through a block of code as long as a specified condition is true.
+// while (condition){
+// block of code;
+// }
+
+let i = 0;
+
+// loop to display numbers from 0 to 9
+while (i < 5) {
+  console.log(i);
+  i++;
+}
+
+// for loop
+// The for statement creates a loop with 3 optional expressions.
+// for (expression 1; expression 2; expression 3) {
+//   // code block to be executed
+// }
+
+// loop to display numbers from 0 to 9
+for (let i = 0; i < 20; i++) {
+  console.log(i);
+}
+
+// Switch Statement
+// The switch statement is used to perform different actions based on different conditions.
+
+// syntax ,
+// switch (condition){
+// case 'xyz':
+// block of code;
+// break;
+
+// case 'abc':
+// block of code;
+// break;
+// }
