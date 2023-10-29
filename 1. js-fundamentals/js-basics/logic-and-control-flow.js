@@ -83,3 +83,22 @@ for (let i = 0; i < 20; i++) {
 // block of code;
 // break;
 // }
+
+const car = "BMW";
+
+switch (car) {
+  case "Volvo":
+    console.log("Volvo");
+    break;
+
+  case "Audi":
+    console.log("Audi");
+    break;
+
+  case "BMW":
+    console.log("BMW");
+    break;
+
+  default:
+    console.log("Enter valid car name");
+}
