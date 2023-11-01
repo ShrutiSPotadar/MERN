@@ -45,7 +45,6 @@ const mul = (number) => {
 const mul1 = (number) => number * number;
 console.log(mul1(2));
 
-
 // Parameters and Arguments
 // Parameter are used when defining a function.
 // Arguments are passed when making a function call.
@@ -57,7 +56,6 @@ const sayHi = (name, age = 23) => {
   console.log(`Hi ${name}, your age is ${age} years old`);
 };
 sayHi("Shruti");
-
 
 // Scope
 // There are three types of scope:
@@ -73,3 +71,29 @@ const globalScope = () => {
   console.log(name);
 };
 globalScope();
+
+// Local Scope
+// Local variable have function scope.They can only be accessed from within the function.
+
+const anyfunction1 = () => {
+  let firstName = "shubham";
+  console.log(firstName);
+
+  const anyfunction2 = () => {
+    console.log(firstName);
+  };
+
+  anyfunction2();
+};
+
+anyfunction1();
+
+//Block Scope
+// This scope ristricts the variale that is inside a specific block,from access by the outside of the block.
+
+if (true) {
+  var firstName = "Shruti";
+}
+console.log(firstName);
+
+// Declaring a variable with var inside a blockscope can also let you access the variable in global scope.
