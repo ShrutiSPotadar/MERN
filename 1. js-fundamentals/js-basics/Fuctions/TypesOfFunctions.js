@@ -13,8 +13,18 @@
 //     statements
 // }
 
-// Aarrow function
+// Arrow function
 // const name = (params) =>
 // {
 //     statements
-// }
+//
+
+// The below function will print the sum and return undefined
+function add(a, b) {
+  console.log(a + b);
+}
+
+const ans = add(3, 3);
+
+// Undefined will be printed out
+console.log(ans);
