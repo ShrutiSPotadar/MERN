@@ -1,0 +1,15 @@
+// Closures in JavaScript
+
+const outer = () => {
+  const outerVar = "Hello";
+
+  const inner = () => {
+    const innervar = "Hi";
+    console.log(outerVar, innervar);
+  };
+  return inner;
+};
+
+const innerFunc = outer();
+
+innerFunc();
