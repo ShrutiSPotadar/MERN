@@ -13,3 +13,16 @@ const outer = () => {
 const innerFunc = outer();
 
 innerFunc();
+
+
+// Example
+const init = () => {
+  const hobby = "JavaScript";
+
+  const displayHobby = () => {
+    console.log("hobby ", hobby);
+  };
+  displayHobby();
+};
+
+init();
