@@ -1,5 +1,6 @@
 // Closures in JavaScript
-
+// In JavaScript, a closure is a function that has access to the outer (enclosing)
+// function's variables—scope chain—even after the outer function has returned.
 const outer = () => {
   const outerVar = "Hello";
 
@@ -13,7 +14,6 @@ const outer = () => {
 const innerFunc = outer();
 
 innerFunc();
-
 
 // Example
 const init = () => {
