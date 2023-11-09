@@ -17,3 +17,15 @@ const firstLetter = firstName[0];
 const lastLetter = firstName[firstName.length - 1];
 
 console.log(firstLetter, lastLetter);
+
+
+
+// Uppercase and Lowercase
+// To make a string Uppercase the toUpperCase() method is being called.
+// To make a string Lowercase the toLowerCase() method is being called.
+
+const mixedcase = "Hello World";
+const lowerCase = mixedcase.toLowerCase();
+console.log("lowerCase ", lowerCase);
+const upperCase = mixedcase.toUpperCase();
+console.log("upperCase ", upperCase);
