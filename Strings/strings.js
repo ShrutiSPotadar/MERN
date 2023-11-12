@@ -39,4 +39,14 @@ const world = variable.slice(2, 10);
 console.log("world ", world);
 
 // Split a string
-// using the splict() method 
+// using the splict() method
+
+const exampleString = "Cat";
+const examplesplit = exampleString.split("");
+console.log("example ", examplesplit);
+// example  [ 'C', 'a', 't' ]
+
+// Reverse String
+const sentance = "Hello World";
+const exampleReverse = sentance.split("").reverse().join("");
+console.log(exampleReverse);
