@@ -50,3 +50,13 @@ console.log("example ", examplesplit);
 const sentance = "Hello World";
 const exampleReverse = sentance.split("").reverse().join("");
 console.log(exampleReverse);
+
+// Repeat
+const cat = "meoww";
+console.log("cat ", cat.repeat(4));
+
+// Trim
+// Trimming up unnecessary spaces in a string using the trim() method.
+const cat1 = "   meoww";
+console.log(cat1);
+console.log("cat1 ", cat1.trim());
