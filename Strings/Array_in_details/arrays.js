@@ -21,3 +21,7 @@ console.log(months);
 // Array Unshift - adds the new value to the start of the array
 months.unshift("Samarth");
 console.log(months);
+
+// Array Splice - It adds or removes values in any position of an array
+months.splice(2, 0, "Shruti" ,"Ayushi");
+console.log(months);
