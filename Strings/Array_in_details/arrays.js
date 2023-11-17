@@ -23,5 +23,9 @@ months.unshift("Samarth");
 console.log(months);
 
 // Array Splice - It adds or removes values in any position of an array
-months.splice(2, 0, "Shruti" ,"Ayushi");
+months.splice(2, 0, "Shruti", "Ayushi");
 console.log(months);
+
+// Array Slice - Copies certain part of an array into a newly created array
+const noOneLikesSam = months.slice(1);
+console.log(noOneLikesSam);
