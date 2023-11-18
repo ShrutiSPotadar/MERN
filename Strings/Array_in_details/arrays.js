@@ -29,3 +29,13 @@ console.log(months);
 // Array Slice - Copies certain part of an array into a newly created array
 const noOneLikesSam = months.slice(1);
 console.log(noOneLikesSam);
+
+// Array Map
+const inventory = [
+  { price: 7, name: "egg" },
+  { price: 10, name: "lays" },
+  { price: 12, name: "maggie" },
+];
+
+const prices = inventory.map((item) => console.log(item.price)); // displays only the prices
+const names = inventory.map((item) => console.log(item.name)); // diplays only the names
