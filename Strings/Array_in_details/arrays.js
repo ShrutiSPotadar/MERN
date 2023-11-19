@@ -39,3 +39,9 @@ const inventory = [
 
 const prices = inventory.map((item) => console.log(item.price)); // displays only the prices
 const names = inventory.map((item) => console.log(item.name)); // diplays only the names
+
+// Array Filter
+const numbers = [2, 5, -2, 0, -5, 1];
+
+const positiveNumbers = numbers.filter((number) => number >= 0);
+console.log(positiveNumbers);
