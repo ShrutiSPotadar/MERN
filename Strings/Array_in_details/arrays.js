@@ -45,3 +45,13 @@ const numbers = [2, 5, -2, 0, 7, 6];
 
 const positiveNumbers = numbers.filter((number) => number >= 0);
 console.log(positiveNumbers);
+
+// For Each
+// We can use for each method when we want to do something with each element of array.
+// const arr = [1, 2, 3, 4, 5, 6];
+// arr.forEach((value, i) => console.log((value, i)));
+
+// Array Find
+const num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const value = num.find((num) => num > 5);
+console.log(value);//6
