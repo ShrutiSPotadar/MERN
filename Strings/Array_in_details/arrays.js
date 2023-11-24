@@ -54,4 +54,28 @@ console.log(positiveNumbers);
 // Array Find
 const num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const value = num.find((num) => num > 5);
-console.log(value);//6
+console.log(value); //6
+
+// Array Includes
+const fruits = ["Mango", "Apple", "Berry", "Peach"];
+if (fruits.includes("Mango")) {
+  console.log("It's Mango");
+} else {
+  console.log("Not Mango");
+}
+
+// Array Sort
+// Array sort => Alphabetically,
+// doesn't sort numbers
+// This sort method mutates the original array
+const name = ["Shubham", "Shruti", "Rohan", "Aditya"];
+name.sort();
+console.log(name);
+
+const digits = [4, 5, 6, 7, 2, 1];
+digits.sort((a, b) => a - b);
+console.log(digits);
+
+const digits1 = [4, 7, 5, 6, 2, 1];
+digits1.sort((a, b) => b - a);
+console.log(digits1);
