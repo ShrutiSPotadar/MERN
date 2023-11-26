@@ -79,3 +79,20 @@ console.log(digits);
 const digits1 = [4, 7, 5, 6, 2, 1];
 digits1.sort((a, b) => b - a);
 console.log(digits1);
+
+// Some and Every
+const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// Array Some returns true if st one element passes the test.
+console.log(arr.some((number) => number > 10));
+
+// Array Every return true if all elements passes the test.
+console.log(arr.every((number) => number > 0));
+
+// Reduce
+// It is to return the sum of all the elements in an array.
+const grocery = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+grocery.reduce((total, price) => total + price, 0);
+console.log(
+  "grocery.reduce((total,price) => total + price,0); ",
+  grocery.reduce((total, price) => total + price, 0)
+);
