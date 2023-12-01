@@ -36,3 +36,13 @@ console.log(postions);
 // Object.values() creates an array containg the values of an object.
 const session = Object.values(details);
 console.log(session);
+
+// Entries - Object.entries creates an array containg key/value of an object.
+
+const details1 = {
+  firstName: "Shruti",
+  lastName: "Potadar",
+  age: 23,
+};
+const ele = Object.entries(details1);
+console.log(ele);
