@@ -46,3 +46,14 @@ const details1 = {
 };
 const ele = Object.entries(details1);
 console.log(ele);
+
+const object1 = {
+  username: "Shruti",
+  password: "12345",
+};
+const newUser = Object.seal(object1);
+
+newUser.username = "Shruti"; // The username will be changed
+newUser.age = 23; // the age property will not be added because we applied Object.seal()
+
+console.log(object1);
