@@ -47,6 +47,10 @@ const details1 = {
 const ele = Object.entries(details1);
 console.log(ele);
 
+// Object Seal
+// Object.seal() prevents new properties
+// from being added to an object,
+// but allows the modification of existing properties
 const object1 = {
   username: "Shruti",
   password: "12345",
