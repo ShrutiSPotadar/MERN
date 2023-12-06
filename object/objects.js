@@ -53,7 +53,7 @@ console.log(ele);
 // but allows the modification of existing properties
 const object1 = {
   username: "Shruti",
-  password: "12345",
+  password: "45678",
 };
 const newUser = Object.seal(object1);
 
