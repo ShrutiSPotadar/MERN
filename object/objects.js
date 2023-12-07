@@ -61,3 +61,8 @@ newUser.username = "Shruti"; // The username will be changed
 newUser.age = 23; // the age property will not be added because we applied Object.seal()
 
 console.log(object1);
+
+// Object.freeze -
+// Object.freeze() is a method in JavaScript that prevents an object from being modified.
+//  It makes the object's properties and values read-only, and prevents new properties from being added, removed, or modified.
+// Once an object is frozen, you can no longer change its properties or values, and you cannot add or remove properties from the object.
