@@ -35,3 +35,27 @@ num.push(6);
 console.log(num1);
 console.log(copynum1);
 console.log(newNum1);
+
+// Deep Coloning
+// A deep copy is a copy that includes all nested properties of the original object, rather than just the top-level properties.
+// To create a deep copy, the code uses the JSON.stringify() and JSON.parse() methods.
+// JSON.stringify() converts an object to a JSON string, which is a format that can be easily stored or transmitted.
+// JSON.parse() converts a JSON string back into an object.
+// By using these methods, the code is able to create a deep copy of the original object,
+// which can be modified independently without affecting the original object.
+
+const person = {
+  name: "Shruti",
+  car: {
+    brand: "minicooper",
+    colour: "blue",
+    wheels: 4,
+  },
+};
+
+const newPerson = JSON.stringify(person);
+const updatedPerson = JSON.parse(newPerson);
+updatedPerson.car.colour = "Black";
+
+console.log("person ", person);
+console.log("updatedPerson ", updatedPerson);
