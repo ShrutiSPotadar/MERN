@@ -36,3 +36,31 @@ const classElement = document.getElementsByClassName("red");
 // addEventListener: This method adds an event listener to an element.
 // removeEventListener: This method removes an event listener from an element.
 // appendChild: This method adds a new child element to an element.
+
+// Here are some examples of how you might use these properties and methods:
+element = document.getElementById("my-element");
+
+element.innerHTML = "Hello, world!";
+
+element.style.color = "red";
+
+element.className = "highlight";
+
+element.id = "new-id";
+
+const input = document.querySelector("input");
+input.value = "Hello World";
+
+const attributeValue = element.getAttribute("data-attribute");
+
+element.setAttribute("data-attribute", "new value");
+
+element.addEventListener("click", () => {
+  console.log("Element was clicked!");
+});
+
+element.removeEventListener("click", myClickHandler);
+
+const newElement = document.createElement("p");
+newElement.innerHTML = "This is a new element";
+element.appendChild(newElement);
